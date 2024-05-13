@@ -10,7 +10,7 @@ ERKLÄRUNG IN DEUTSCH
 ___________________________________________
 
 
-Die Software wandelt Spracheingabe in Text, sendet diesen an ChatGPT und gibt die Antwort per synthetischer Sprachausgabe wieder aus. Ein Chatbot im akkustischen Sinn. Es gibt zwei Skripte: "GPT3.5" nutzt die neuere KI und wird daher empfohlen. "GPT3" neigt zu einsilbigeren Antworten.
+Die Software wandelt Spracheingabe in Text, sendet diesen an ChatGPT und gibt die Antwort per synthetischer Sprachausgabe wieder aus. Ein Chatbot im akkustischen Sinn.
 
 Du brauchst:
 
@@ -21,9 +21,9 @@ Du brauchst:
 
 So benutzt Du KI.ND:
 
-1) Starte das Programm: Wenn Du einen Python 3.X-Interpreter installiert hast, kannst Du das direkt vom Skript aus tun. Wenn Du das nicht hast oder nicht weißt, was das ist, müsstest Du kurz danach recherchieren, wie ein Python-Skript in eine ausführbare Datei umgewandelt werden kann (im Fall von Windows endet diese auf .exe). Ich möchte Das "fertige" Programm nicht anbieten, weil grundsätlich NIEMAND im Internet eine EXE-Datei irgendwo herunterladen und ausführen sollte, das ist der schnellste Weg zu einem vervirten Rechner. Dieses Skript ist sicher, keine Sorge, aber bitte kompiliert Dateien selbst. Keine Sorge, es ist ganz simpel ;)
+1) Starte das Programm.
 
-2) Beim sich öffnenden Fenster gibst Du Deinen API-Key (siehe oben) ein und drückst auf "Speichern". Dann drückst Du auf "Aufnahme" und sprichst Deine Eingabe. Nach einer kurzen (siehe oben) Wartezeit erfolgt die Ausgabe.
+2) Beim sich öffnenden Fenster gibst Du Deinen API-Key (siehe oben) ein und drückst auf "Speichern". Dann drückst Du auf "Aufnahme" und sprichst Deine Eingabe. Wenn Du fertig bist, drückst Du auf "Stop".
 
 3) Die Software speichert die erstellte Audioaufnahme im Verzeichnis, in dem das Programm ausgeführt wird, als Wave ab. Wird eine neue Eingabe getätigt, wird die alte Wave überschrieben. Insofern entsteht kein Datenmüll, unter Umständen kann es aber sinnvoll oder wünschenswert sein, dass die Datei nach der Probe/Vorstellung händisch entfernt wird. Sie wird dann vom Programm einfach neu erstellt, so oder so.
 
@@ -34,7 +34,7 @@ ___________________________________________
 SAME STUFF IN ENGLISH
 ___________________________________________
 
-The software converts voice input into text, sends it to ChatGPT, and plays back the response via synthetic voice output. A chatbot in the acoustic sense. There are two scripts: "GPT3.5" uses the newer AI and is therefore recommended. "GPT3" tends to give more monosyllabic answers.
+The software converts voice input into text, sends it to ChatGPT, and plays back the response via synthetic voice output. A chatbot in the acoustic sense.
 
 You need:
 
@@ -45,9 +45,9 @@ You need:
 
 How to use KI.ND:
 
-1) Start the program: if you have a Python 3.X interpreter installed, you can do this directly from the script. If you don't have that or don't know what it is, you would have to research shortly after how to convert a Python script into an executable (in the case of Windows, this ends in .exe). I don't want to offer the "ready made" program, because basically NOBODY should download an EXE file anywhere on the internet and run it, that's the fastest way to get a virus infected computer. This script is safe, don't worry, but please compile files yourself. Don't worry, it's quite simple ;)
+1) Start the program.
 
-2) When the window opens, enter your API key (see above) and press "Save". Then press "Record" and speak your input. After a short (see above) waiting time the output takes place.
+2) When the window opens, enter your API key (see above) and press "Save". Then press "Aufnahme" and speak your input. Press "Stop" when you have finished. 
 
 3) The software saves the created audio recording as a wave in the directory where the program is executed. If a new input is made, the old wave is overwritten. In this respect, there is no data garbage, but under certain circumstances it may be useful or desirable to manually remove the file after the rehearsal/performance. It will then simply be recreated by the program, one way or another.
 
